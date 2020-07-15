@@ -31,3 +31,36 @@ The screws here are tapered on the very last few threads. This allows the user t
 
 ## Assembly
 
+This phase isn't very complicated. The images will provide most of the instruction. On the right side of the board, insert screw housings as shown in the following image.
+
+![Initial Arrangement](img\BusBoard_MetalHousingArrangement.jpg)
+
+Once these are soldered in, create a straight line of housings using the 12awg bare copper wire as a guide. **DO NOT SOLDER/INSTALL THE COPPER WIRE!** This is shown below:
+
+![Using the Wire Guide](img\BusBoard_MetalHousingAlignment2.jpg)
+
+After completing a nice, straight row, continue on and install the following rows. You should end up with a board with a bottom similar to this:
+
+![Completed Rows](img\BusBoard_PartlyAssembledBottom.jpg)
+
+Next is to assemble the power inlets for the bus board. Arrange 3 2-pin housings, with the metal housings removed to match the following image.
+
+![Power Inlet](img\ScrewTerminal_BusBoardPowerInlet.jpg)
+![Power Inlet, Arranged](img\ScrewTerminal_BusBoardPowerInlet2.jpg)
+
+The odd arrangement allows this to be install in the same slot holes on the top side.
+
+![Installing Power Inlet](img\BusBoard_PartlyAssembledSideInlet.jpg)
+
+Carefully solder the inlet in. Avoid sinking heat into the board during this install; doing so will cause issues with the solder joints for the already installed metal housings. Work quickly and allow time for the heat to dissapate between joints.
+
+With the power inlet installed, you can install the 12awg bare copper wires to link the circuits. Solder works, but you may opt for screwing in place with the metal housings; a M2.5 set screw would be ideal for my specific part. 
+
+Soldering the copper wire has its own challenges. First, the entire wire works as a heatsink, forcing you to dump plenty of heat into it to get the surfaces to solder temp; be careful! Also, thermal expansion of the wire will be an issue; take breaks to allow the wire to cool between each solder joint. Consequetly, quick work here will greatly heat the wire, and upon cooling, it will contract and distort the PCB causing very significant bowing. Avoid this! Work slowly!
+
+## Conclusions
+WIth the wires installed, you may install the wire connections you plan to use in your system. Also, you can install the 3-pin +5V/CV/Gate Inlet if your system utilizes those circuits. 
+
+**A continunity check here is highly advised!**
+
+All that's left is to install the Bus Board into your enclosure, hook everything up and power it on. Enjoy!
